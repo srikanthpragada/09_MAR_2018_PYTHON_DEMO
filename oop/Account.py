@@ -1,11 +1,16 @@
 class Account:
     # class attribute
+    count = 0
     minbal = 10000
 
     def __init__(self, acno, customer, balance=0):
         self.__acno = acno
         self.__customer = customer
         self.__balance = balance
+        Account.count += 1
+
+    def __del__(self):
+        Account.count -= 1
 
     def print(self):
         print("Account no: ", self.__acno)
@@ -37,11 +42,11 @@ c1 = Account(123456, "Guido", 150000)
 c1.print()
 c1.deposit(10000)
 c1.withdraw(50000)
-c2 = Account(273727, "James")
-print(c1 == c2)
 
-Account.set_minbal(5000)  # call static method with classname
+c2 = Account(273727, "James")
+
+print("Count :", Account.count)
+del c2
+print("Count :", Account.count)
 
 print(c1.__dict__)
-print(Account.__dict__)
-
