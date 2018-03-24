@@ -1,22 +1,21 @@
-class Base1:
-    def fun1(self,name):
-        self.name = name
-        print("fun1() in Base1", self.name)
+class Base1():
+    def fun(self):
+        print("fun() in Base1")
 
-
-class Base2:
-    def fun2(self,email):
-        self.email = email
-        print("fun2() in Base2", self.email)
-
+class Base2():
+    def fun(self):
+        print("fun() in Base2")
 
 class Derived(Base1, Base2):
-    def __init__(self,name, email):
-        super().__init__(name)
+    def fun(self):
+        Base1.fun(self)
+        Base2.fun(self)
+        print("fun() in Derived")
+
+d = Derived()
+d.fun()
 
 
 
 
-d = Derived("Abc","abc@gmail.com")
-d.fun1()
-d.fun2()
+
