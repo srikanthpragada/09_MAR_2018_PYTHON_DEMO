@@ -34,5 +34,13 @@ m = Manager("Mr. Bill",100000,20000)
 print(m.get_name())
 print(m.get_salary())
 
+print( isinstance(m,Employee))
+print( isinstance(e,Employee))
+print( isinstance(e,Manager))
+print( issubclass(Manager,object))
+
+print (type(m))
+
+
 
 
