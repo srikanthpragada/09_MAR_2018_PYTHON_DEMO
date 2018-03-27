@@ -1,3 +1,11 @@
+class InsufficientBalanceError(Exception):
+    def __init__(self, balance, amount):
+        self.message = "Insufficient Balance %d. Widthdraw amount id %d." % (balance, amount)
+
+    def __str__(self):
+        return self.message
+
+
 class Account:
     # class attribute
     count = 0
@@ -29,6 +37,8 @@ class Account:
     def withdraw(self, amount):
         if self.__balance - Account.minbal >= amount:
             self.__balance -= amount
+        else:
+            raise InsufficientBalanceError(self.__balance, amount)
 
     def __eq__(self, other):
         return self.__acno == other.__acno
@@ -38,15 +48,10 @@ class Account:
         Account.minbal = newminbal
 
 
-c1 = Account(123456, "Guido", 150000)
-c1.print()
-c1.deposit(10000)
-c1.withdraw(50000)
+c1 = Account(123456, "Guido", 15000)
 
-c2 = Account(273727, "James")
-
-print("Count :", Account.count)
-del c2
-print("Count :", Account.count)
-
-print(c1.__dict__)
+try:
+    c1.withdraw(50000)
+    print("Withdrew")
+except Exception as ex:
+    print("Error : ", ex)
