@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13182150-a434-43fa-a547-96c137d9a0d5" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/libdemo/date_demo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/libdemo/get_rss.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/libdemo/json_ser.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/libdemo/list_countries.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/libdemo/person.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/libdemo/person.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/libdemo/pickle_person.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/libdemo/re_demo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/libdemo/time_demo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/libdemo/unpickle_person.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/files/directory_list.py" afterPath="$PROJECT_DIR$/files/directory_list.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,21 +23,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="read_names.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/read_names.py">
+      <file leaf-file-name="directory_list.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/files/directory_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="58" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="58" />
+            <state relative-caret-position="162">
+              <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="directory_list.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/files/directory_list.py">
+      <file leaf-file-name="date_demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libdemo/date_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="168">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="time_demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libdemo/time_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_rss.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libdemo/get_rss.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_countries.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libdemo/list_countries.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -45,17 +84,17 @@
         </entry>
       </file>
       <file leaf-file-name="re_demo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/re_demo.py">
+        <entry file="file://$PROJECT_DIR$/libdemo/re_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="189">
+              <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="person.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/person.py">
+        <entry file="file://$PROJECT_DIR$/libdemo/person.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
               <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
@@ -65,7 +104,7 @@
         </entry>
       </file>
       <file leaf-file-name="pickle_person.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pickle_person.py">
+        <entry file="file://$PROJECT_DIR$/libdemo/pickle_person.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
               <caret line="5" column="51" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="51" />
@@ -77,45 +116,13 @@
         </entry>
       </file>
       <file leaf-file-name="json_ser.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/json_ser.py">
+        <entry file="file://$PROJECT_DIR$/libdemo/json_ser.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
               <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="unpickle_person.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/unpickle_person.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_dir.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/list_dir.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all_files.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/all_files.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -135,11 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/even.py" />
-        <option value="$PROJECT_DIR$/whiledemo.py" />
-        <option value="$PROJECT_DIR$/forloop.py" />
-        <option value="$PROJECT_DIR$/prime_number.py" />
-        <option value="$PROJECT_DIR$/assignments/reverse_even.py" />
         <option value="$PROJECT_DIR$/assignments/find_positions.py" />
         <option value="$PROJECT_DIR$/set_demo.py" />
         <option value="$PROJECT_DIR$/assignments/factorials.py" />
@@ -186,6 +188,11 @@
         <option value="$PROJECT_DIR$/lib/json_ser.py" />
         <option value="$PROJECT_DIR$/lib/re_demo.py" />
         <option value="$PROJECT_DIR$/files/directory_list.py" />
+        <option value="$PROJECT_DIR$/libdemo/datetimedemo.py" />
+        <option value="$PROJECT_DIR$/libdemo/date_demo.py" />
+        <option value="$PROJECT_DIR$/libdemo/time_demo.py" />
+        <option value="$PROJECT_DIR$/libdemo/get_rss.py" />
+        <option value="$PROJECT_DIR$/libdemo/list_countries.py" />
       </list>
     </option>
   </component>
@@ -229,6 +236,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,14 +253,12 @@
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="libdemo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,111 +287,111 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.directory_list">
-    <configuration name="directory_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.list_countries">
+    <configuration name="date_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/files" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libdemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/files/directory_list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libdemo/date_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="json_ser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="datetimedemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libdemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/json_ser.py" />
+      <option name="SCRIPT_NAME" value="E:\classroom\python\mar9\demo\libdemo\date_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="pickle_person" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="get_rss" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libdemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/pickle_person.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libdemo/get_rss.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="re_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="list_countries" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libdemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/re_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libdemo/list_countries.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="unpickle_person" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="time_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libdemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/unpickle_person.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libdemo/time_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.pickle_person" />
-      <item index="1" class="java.lang.String" itemvalue="Python.unpickle_person" />
-      <item index="2" class="java.lang.String" itemvalue="Python.json_ser" />
-      <item index="3" class="java.lang.String" itemvalue="Python.re_demo" />
-      <item index="4" class="java.lang.String" itemvalue="Python.directory_list" />
+      <item index="0" class="java.lang.String" itemvalue="Python.datetimedemo" />
+      <item index="1" class="java.lang.String" itemvalue="Python.time_demo" />
+      <item index="2" class="java.lang.String" itemvalue="Python.date_demo" />
+      <item index="3" class="java.lang.String" itemvalue="Python.get_rss" />
+      <item index="4" class="java.lang.String" itemvalue="Python.list_countries" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.directory_list" />
-        <item index="1" class="java.lang.String" itemvalue="Python.re_demo" />
-        <item index="2" class="java.lang.String" itemvalue="Python.json_ser" />
-        <item index="3" class="java.lang.String" itemvalue="Python.unpickle_person" />
-        <item index="4" class="java.lang.String" itemvalue="Python.pickle_person" />
+        <item index="0" class="java.lang.String" itemvalue="Python.list_countries" />
+        <item index="1" class="java.lang.String" itemvalue="Python.get_rss" />
+        <item index="2" class="java.lang.String" itemvalue="Python.time_demo" />
+        <item index="3" class="java.lang.String" itemvalue="Python.date_demo" />
+        <item index="4" class="java.lang.String" itemvalue="Python.datetimedemo" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +419,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45727137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47226387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -443,34 +450,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/whiledemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/even.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/whiledemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/forloop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -727,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +733,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/unpickle_person.py">
+    <entry file="file://$PROJECT_DIR$/libdemo/unpickle_person.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -765,7 +743,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pickle_person.py">
+    <entry file="file://$PROJECT_DIR$/libdemo/pickle_person.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="5" column="51" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="51" />
@@ -775,7 +753,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/person.py">
+    <entry file="file://$PROJECT_DIR$/libdemo/person.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
@@ -783,7 +761,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/json_ser.py">
+    <entry file="file://$PROJECT_DIR$/libdemo/json_ser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
@@ -801,18 +779,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/re_demo.py">
+    <entry file="file://$PROJECT_DIR$/libdemo/re_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        <state relative-caret-position="189">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/files/directory_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="162">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libdemo/date_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libdemo/time_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libdemo/get_rss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libdemo/list_countries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
